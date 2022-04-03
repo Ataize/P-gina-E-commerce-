@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
-    <link rel="stylesheet" href="css\style.csss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css\menu.css">
+    <link rel="stylesheet" href="css\banner.css">
+    <link rel="stylesheet" href="css\banner-mobile.css">
 </head>
     <header class="menu">
         <div class="menu__principal">
             <img class="menu__logo" src="img\logoAlura.png" alt="Logo da Alura">
-           <div class="menu__buscador">
-            <input class="menu__buscar" type="text" placeholder="O que deseja encontrar?">
-            <button class="menu__botaoBuscar" type="submit"><img src="img\Icone.png" alt="Imagem lupa"></button>
-           </div>
+                <div class="menu__buscador">
+                    <input class="menu__buscar" type="text" placeholder="O que deseja encontrar?">
+                    <button class="menu__botaoBuscar" type="submit"><img src="img\Icone.png" alt="Imagem lupa"></button>                   
+                </div>
+           <button class="menu__login Botao1">Login</button>
         </div>
-        <button class="menu__login Botao">Login</button>
     </header>
 <body>
-    
+    <section class="banner">
+        <div class="banner__apresentacao">
+            <h1 class="banner__titulo">Abril promocional</h1>
+            <p class="banner__descricao">Produtos selecionados com 33% de desconto</p>
+            <button class="banner__btn Botao2">Ver console</button>
+        </div>       
+    </section>
 </body>
 </html>
 

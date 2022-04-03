@@ -1,3 +1,11 @@
 body{
-    background: #F5F5F5;
+    background-color: ##FFFFFF;
+    font-family: 'Raleway';
+}
+@media screen (max-width:768px) {
+    body{
+        margin:0 0 0 0;
+        padding:0;
+        border:0;
+    }
 }

@@ -1,0 +1,23 @@
+
+@media screen (max-width:768px) {
+    .banner{
+        position: static;
+        width: 100%;
+        height: 192px;
+        left: 0px;
+        top: 72px;
+    }
+    .banner__apresentacao{
+      
+    }
+    
+.banner__titulo{
+   font-size: 0rem;
+}
+.banner__descricao{
+    font-size: .8rem;
+    line-height: .9rem;
+    color: #FFFFFF;
+}
+    
+}
