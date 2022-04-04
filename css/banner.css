@@ -54,19 +54,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .banner {
-        width: 100%;
-       
-      
-    }
-    .banner__apresentacao{
-        position: static;
-        width: 100%;
-      
-        top: 0px;
-        margin: 0 0 0 0;
-        padding: 2%;
-
+    .banner{
+        height: auto;
+        width: 100vw;
     }
     .banner__titulo{
         font-size: .8em;
@@ -74,13 +64,22 @@
         margin: 8px 0;
       
     }
+    
+    .banner__apresentacao{
+        position: static;
+        width: 100%;      
+        top: 0px;
+        margin: 0 0 0 0;
+        padding: 2%;
+
+    }
+    
     .banner__descricao{
         font-size: .6em;
         text-shadow: 0.2em 0.2em black;
         font-weight: 600;
         margin-top: 5px;
-        margin-bottom: 0;
-      
+        margin-bottom: 0;    
 
     }
     .Botao2{

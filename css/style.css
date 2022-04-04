@@ -2,10 +2,9 @@ body{
     background-color: ##FFFFFF;
     font-family: 'Raleway';
 }
-@media screen (max-width:768px) {
+@media screen and(max-width:768px) {
     body{
-        margin:0 0 0 0;
-        padding:0;
-        border:0;
+        width: min-content;
+        overflow-x: hidden;
     }
-}
+  
