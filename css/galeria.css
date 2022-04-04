@@ -1,4 +1,5 @@
 .galeria{
+    width: 95%;
     margin: 5%;
     display: flex;
     flex-wrap: wrap;
