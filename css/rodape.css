@@ -91,6 +91,7 @@
 }
 .rodape__btn{
     width: 100%;
+    height: 50px;
     margin-top: 10px;
 }
 @media screen and (max-width:768px) {

@@ -36,7 +36,7 @@
 }
 .Botao2 {
    
-    width: 130px;
+    width: 150px;
     height: 51px;
     left: 0px;
     top: 119px;
@@ -48,7 +48,7 @@
     color: #FFFFFF;
 }
 .Botao2:hover{
-    font-size: 1.1em;
+    font-weight: bold;;
     cursor: pointer;
     background: #5595E9;
 }
