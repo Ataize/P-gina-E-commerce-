@@ -1,5 +1,5 @@
 body{
-    background-color: ##FFFFFF;
+    background-color: #FFFFFF;
     font-family: 'Raleway';
 }
 @media screen and(max-width:768px) {
@@ -7,4 +7,4 @@ body{
         width: min-content;
         overflow-x: hidden;
     }
-  
+}
