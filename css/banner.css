@@ -53,10 +53,10 @@
     background: #5595E9;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 545px) {
     .banner{
         height: auto;
-        width: 100vw;
+        width: 100%;
     }
     .banner__titulo{
         font-size: .8em;
@@ -69,7 +69,7 @@
         position: static;
         width: 100%;      
         top: 0px;
-        margin: 0 0 0 0;
+        margin: 0;
         padding: 2%;
 
     }
@@ -90,4 +90,4 @@
         
     }
 }
-    
+@media screen and (max-width: 920px)

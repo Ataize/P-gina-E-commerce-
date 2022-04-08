@@ -97,7 +97,9 @@
 @media screen and (max-width:768px) {
    
     .rodape{
+        width: 100%;
         height: auto;
+        margin: 0 0;
     }
     .rodape__aluraGeek{      
         flex-direction: column;
@@ -108,5 +110,6 @@
     .rodape__informacoes{
         width: auto;
         height: auto;
+        display: contents;
     }
 }

@@ -1,5 +1,5 @@
 .galeria{
-    width: 95%;
+    width: 90%;
     margin: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +75,9 @@
 }
 @media screen and (max-width:768px) {    
     .galeria{        
-        justify-content: space-around;
+        width: 90%;
+        justify-content: space-between;
+        margin: 0;
     }
     .galeria__produtos{
         width: 30%;

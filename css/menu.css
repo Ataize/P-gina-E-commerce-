@@ -51,7 +51,17 @@
     cursor: pointer;  
    
 }
+.menu__navBotao{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #2A7AE4;
+}
 .Botao1{
+   
     border: 1px solid #2A7AE4;
     box-sizing: border-box;
     position: static;
@@ -60,13 +70,6 @@
     left: 954px;
     top: 32px;
     
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 19px;
-    color: #2A7AE4;
 }
 .Botao1:hover{
     cursor: pointer;

@@ -1,10 +1,12 @@
-body{
+body, html{
+    width: 100%;
     background-color: #FFFFFF;
     font-family: 'Raleway';
+    overflow-x: hidden;
 }
 @media screen and(max-width:768px) {
     body{
         width: min-content;
-        overflow-x: hidden;
+       
     }
 }
