@@ -5,8 +5,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding: 0px;
-
-
 }
 .galeria__secao{
     display: flex;
@@ -14,6 +12,7 @@
     align-items: center;
     width: 100%;
     height: 38px;
+    margin-left: 0;
 }
 .galeria__produtos{
     display: flex;
@@ -27,6 +26,10 @@
     left: 0px;
     top: 0px;
     margin: 16px 10px;
+}
+.galeria__produtos:nth-child(1){
+    margin-left: 0;
+    border-left: 0;
 }
 .galeria__titulo{
     font-weight: 700;

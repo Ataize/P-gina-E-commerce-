@@ -110,6 +110,6 @@
     .rodape__informacoes{
         width: auto;
         height: auto;
-        display: contents;
+        display: content;
     }
 }
